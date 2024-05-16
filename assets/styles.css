@@ -1,0 +1,163 @@
+:root {
+  --background-color: #131217 ;
+}
+
+body {
+    background-color: var(--background-color)!important;
+    font-family: Arial, sans-serif;
+    color: rgb(245, 246, 247) !important;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Jersey 10', sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h1 p {
+  margin-top: -5px;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+div.box.section {
+  padding: 20px;
+  background-color: #191720 !important;
+  color: rgb(194, 189, 189) !important;
+}
+
+div.box.section h3 {
+  color: white !important;;
+}
+
+nav {
+    background-color: var(--background-color) !important;
+    background-image: url('./images/headerOne.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+  font-size: 100px !important;
+}
+
+.navbar-toggler {
+  background-color: rgb(210, 208, 208) !important; /* Set background color */
+  height: 30px; /* Adjust height of the toggler */
+  border: none; /* Remove default border */
+  align-items: center !important;
+
+}
+
+.navbar-toggler-icon {
+  background-image: url('./images/toggle.png') !important; /* Set custom image for the toggler icon */
+  width: 20px; /* Adjust width of the icon */
+  height: 20px; /* Adjust height of the icon */
+  align-items: center;
+}
+
+nav a {
+  background-color: black;
+  color: rgb(210, 208, 208) !important;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid white;
+  align-items: center;
+}
+
+nav a:hover {
+  background-color: rgb(81, 11, 11) !important;
+  border-color: rgb(241, 215, 215) !important;
+}
+
+.card {
+  color: rgb(216, 212, 212) !important;
+  background-color: rgb(21, 21, 21) !important;
+}
+
+img {
+  border-radius: 10px;
+}
+
+p {
+  padding: 10px;
+}
+
+input {
+  background-color: rgb(247, 242, 242) !important;
+  font-size: 20px !important;
+  color: black !important;
+  font-family: 'Jersey 10', sans-serif;
+}
+
+input::placeholder {
+  font-family: 'Jersey 10', sans-serif; /* Updated font family name */
+  font-size: 20px;
+  color: black !important;
+}
+
+input#searchInput.input {
+  color: black !important;
+}
+
+button:hover {
+  background-color: rgb(81, 11, 11) !important;
+  border: red !important;
+}
+
+.bluebtn {
+  background-color: #007bff;
+}
+
+.input-group {
+  margin: 10px;
+  padding: 0 auto;
+}
+
+#searchInput {
+  color: black !important;
+}
+
+#youtubeSearch {
+  margin-bottom: 200px;
+}
+
+#youtubeSearch button {
+  height: 100%
+}
+
+#movieSearch {
+  margin-bottom: 200px;
+
+}
+
+footer {
+  background-color: var(--background-color) !important;
+  background-image: url('./images/footer.svg');
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.text-sm {
+  font-size: 20px !important;
+}
+
+.active {
+  display: inline;
+}
+
+.inactive {
+  display: none;
+}

@@ -1,0 +1,80 @@
+body {
+    background-color: #191133;
+    font-family: Arial, sans-serif;
+    color: whitesmoke;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container to center the main content */
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 800px; /* Adjust as needed */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.watchlist-container {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.watchlist-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    background-color: #d5caca;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.watchlist-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.movie-item, .watch-card {
+    width: 100%;
+    max-width: 480px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(131, 124, 124, 0.1);
+    cursor: grab;
+    background-color: #f0f0f0;
+}
+
+.watch-card {
+    background-color: #242429;
+    border: 1px solid rgb(169, 166, 176);
+}
+
+.movie-item:hover, .watch-card:hover {
+    transform: translateY(-2px);
+    transition: transform 0.3s ease;
+    background-color: #e0e0e0;
+}
+
+.watch-card:hover {
+    background-color: rgb(106, 122, 12);
+}
